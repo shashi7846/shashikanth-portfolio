@@ -321,13 +321,28 @@ section {
   opacity: 0;
   transition: ease-in-out 0.4s;
   z-index: 2;
+  
 }
+/* img{
+  height: 500px;
+  width: 400px;
+} */
+.certificate{
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+position: relative;
+height: 300px;
+width: 100%;
+display: block;
+margin-bottom: 30px;}
 
 section.section-show {
   top: 100px;
   bottom: auto;
   opacity: 1;
   padding-bottom: 45px;
+
 }
 
 section .container {
@@ -374,7 +389,6 @@ section .container {
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
-
 
 /*--------------------------------------------------------------
 # About
@@ -490,12 +504,15 @@ section .container {
   padding: 20px;
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
+  
+  
 }
 
 .interests .icon-box i {
   font-size: 32px;
   padding-right: 10px;
   line-height: 1;
+  
 }
 
 .interests .icon-box h3 {
@@ -505,10 +522,12 @@ section .container {
   line-height: 1;
   font-size: 16px;
   color: #fff;
+  
 }
 
 .interests .icon-box:hover {
   background: rgba(255, 255, 255, 0.12);
+  margin: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -595,13 +614,15 @@ section .container {
 }
  
 /*--------------------------------------------------------------
-# Projects
+# Projects 
 --------------------------------------------------------------*/
+
 .Projects .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
+  margin: 30px;
 }
 
 .services .icon-box .icon {
